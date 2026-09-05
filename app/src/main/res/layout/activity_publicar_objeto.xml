@@ -12,10 +12,11 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="32dp"
-      android:text="Publicar un Objeto"
+      android:text="@string/titulo_publicar_un_objeto"
       android:textSize="28sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,9 +26,12 @@
       android:layout_height="50dp"
       android:layout_marginTop="32dp"
       android:ems="10"
-      android:hint="Nombre del Objeto"
+      android:hint="@string/hint_nombre_del_objeto"
+      android:importantForAutofill="no"
       android:inputType="textCapSentences"
-      android:textSize="16sp"
+      android:textColor="#212121"
+      android:textColorHint="#616161"
+      android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/txtTituloPublicar" />
@@ -37,7 +41,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="24dp"
-      android:text="Selecciona una categoría"
+      android:text="@string/mensaje_selecciona_una_categor_a"
       android:textSize="18sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
@@ -56,24 +60,24 @@
 
     <RadioButton
         android:id="@+id/rbRopa"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="Ropa"
-        android:textSize="16sp" />
+        android:text="@string/categoria_ropa"
+        android:textSize="18sp" />
 
     <RadioButton
         android:id="@+id/rbLibros"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="Libros"
-        android:textSize="16sp" />
+        android:text="@string/categoria_libros"
+        android:textSize="18sp" />
 
     <RadioButton
         android:id="@+id/rbTecnologia"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="Tecnología"
-        android:textSize="16sp" />
+        android:text="@string/categoria_tecnolog_a"
+        android:textSize="18sp" />
 
   </RadioGroup>
 
@@ -82,7 +86,7 @@
       android:layout_width="wrap_content"
       android:layout_height="48dp"
       android:layout_marginTop="24dp"
-      android:text="Publicar"
+      android:text="@string/accion_publicar"
       android:textSize="18sp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"

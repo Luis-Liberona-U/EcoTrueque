@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">EcoTrueque</string>
+    <string name="titulo_publicar_un_objeto">Publicar un Objeto</string>
+    <string name="titulo_ecotrueque">EcoTrueque</string>
+    <string name="accion_iniciar_trueque">Iniciar Trueque</string>
+    <string name="hint_nombre_del_objeto">Nombre del Objeto</string>
+    <string name="mensaje_selecciona_una_categor_a">Selecciona una categoría</string>
+    <string name="categoria_ropa">Ropa</string>
+    <string name="categoria_libros">Libros</string>
+    <string name="categoria_tecnolog_a">Tecnología</string>
+    <string name="accion_publicar">Publicar</string>
+    <string name="titulo_publicaci_n_realizada">Publicación realizada</string>
+    <string name="etiqueta_objeto">Objeto:</string>
+    <string name="etiqueta_categoria">Categoría:</string>
+    <string name="accion_volver_al_menu">Volver al menú</string>
 </resources>
